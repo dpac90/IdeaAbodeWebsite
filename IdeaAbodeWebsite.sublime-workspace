@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"style	Attr"
+			],
+			[
+				"sp",
+				"letter-spacing"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
 				"tex",
 				"text-align"
 			],
@@ -30,10 +66,6 @@
 			[
 				"margin-",
 				"margin-top"
-			],
-			[
-				"marg",
-				"margin-left"
 			]
 		]
 	},
@@ -43,8 +75,17 @@
 			"file": "home.html",
 			"settings":
 			{
-				"buffer_size": 3341,
+				"buffer_size": 5348,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "css/ideaabode.css",
+			"settings":
+			{
+				"buffer_size": 3705,
+				"line_ending": "Windows",
+				"name": "-	#idea {"
 			}
 		}
 	],
@@ -75,6 +116,10 @@
 	},
 	"file_history":
 	[
+		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/IdeaAbodeWebsite/shadow.svg",
+		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/IdeaAbodeWebsite/img/shadow.svg",
+		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/IdeaAbodeWebsite/js/ideaabode/lazy-line.js",
+		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/IdeaAbodeWebsite/css/foundation.css",
 		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/Website/js/foundation/foundation.orbit.js",
 		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/Website/css/foundation.css",
 		"/D/Documents/Deepak/Projects/Freelance/Idea Abode/Website/home.html",
@@ -104,7 +149,7 @@
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -118,6 +163,20 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"h4",
+			"<h4 class=\"show-for-small\">Hello and welcome to Idea Abode</h4>",
+			"<p class=\"hide-for-small\">- a team of designers, developers & testing engineers</p>",
+			"h3",
+			"h4",
+			"- a team of designers, developers & testing engineers",
+			"h1",
+			"large-2 text-center large-centered columns",
+			"filter",
+			"222",
+			"#2a2927",
+			"div",
+			"centered",
+			"{\n",
 			"p {",
 			" '",
 			"com",
@@ -163,15 +222,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3341,
+						"buffer_size": 5348,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1329,
+								1329
 							]
 						],
 						"settings":
@@ -180,10 +239,41 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 315.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/ideaabode.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2982,
+								2982
+							]
+						],
+						"settings":
+						{
+							"auto_name": "-	#idea {",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
@@ -248,11 +338,11 @@
 	},
 	"select_symbol":
 	{
-		"height": 0.0,
+		"height": 392.0,
 		"selected_items":
 		[
 		],
-		"width": 0.0
+		"width": 392.0
 	},
 	"settings":
 	{
