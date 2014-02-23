@@ -1,0 +1,107 @@
+/* --------------------------
+	 Idea Abode CSS
+	 Over-riding Foundation CSS
+	 -------------------------- */
+
+body {
+	font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: 300; }
+
+p {
+	font-weight: 300; }
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
+
+/*Top-bar customizations*/
+	nav.tab-bar {
+		background: #2a2927; }
+
+	.top-bar {
+		height: 88px;
+		line-height: 88px;
+		background: #2a2927;
+		margin-bottom: 0;
+		outline: 3px solid rgb(255, 204, 69); }
+
+	.top-bar .name {
+		height: 88px; }
+
+	.top-bar .name h1 {
+		line-height: 88px; }
+
+	.top-bar .name h1 a {
+		padding: 0 35px; }
+
+	.fixed.expanded:not(.top-bar) .top-bar-section {
+		margin-top: 88px; }
+
+	.top-bar .toggle-topbar {
+		height: 88px;
+		line-height: 88px; }
+
+	.top-bar .toggle-topbar.menu-icon {
+		color: #ffcc45;
+		font-family: 'Raleway', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+		font-size: 1.35rem;
+		letter-spacing: .050em;
+		font-weight: 300; }
+
+	.top-bar-section ul li > a {
+		color: #FFCC45;
+		font-family: 'Raleway', "Helvetica Neue","Helvetica",Helvetica,Arial,sans-serif;
+		font-size: 1.35rem;
+		letter-spacing: 0.05em;
+		font-weight: 300;
+	}
+
+	@media only screen and (min-width: 40.063em) {
+		.top-bar {
+			background: #2a2927;	}
+
+		.top-bar-section li:not(.has-form) a:not(.button) {
+			padding: 0 35px;
+			line-height: 88px;
+			background: #2a2927; }
+
+		.top-bar-section li.active:not(.has-form) a:not(.button) {
+			line-height: 88px; }
+
+		.top-bar-section li.active:not(.has-form) a:not(.button):hover {
+			height: 88px; }
+		
+		.top-bar-section .has-form {
+			height: 88px; } }
+
+.button {
+	padding: 0 0 3px 0; }
+
+[data-magellan-expedition] {
+	padding: 0 0 3px;
+}
+
+.content {
+	background: #302f2b;
+	color: white; }
+
+.content h2 {
+	margin-top: 3rem; }
+
+.contactus {
+	padding: 3rem 0 4rem 0; }
+
+.contactus a span {
+	margin-left: 1rem;
+	font-size: 22px;
+	font-weight: 300; }
+
+.footer {
+	background: #2a2927;
+	color: #4a4a4a;
+	padding: 5rem 0 3rem 0; }
+
+.footer p {
+	font-size: 12px; }
+
+.footer img {
+	padding: 0 0 0.5rem 0; }
