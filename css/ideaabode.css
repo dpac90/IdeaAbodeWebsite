@@ -3,6 +3,10 @@
 	 Over-riding Foundation CSS
 	 -------------------------- */
 
+/*----------------------
+  General customizations
+  ----------------------*/
+
 body {
 	font-family: 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-weight: 300; }
@@ -13,14 +17,26 @@ p {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', 'Lato', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
 
-/*Top-bar customizations*/
+.button {
+	padding: 0 0 3px 0; }
+
+[data-magellan-expedition] {
+	padding: 0 0 3px;
+}
+
+/*--------------------*/
+
+/*----------------------
+  Top-bar customizations
+  ----------------------*/
+
 	nav.tab-bar {
-		background: #2a2927; }
+		background: rgba(42, 41, 39, 1); }
 
 	.top-bar {
 		height: 88px;
 		line-height: 88px;
-		background: #2a2927;
+		background: rgba(42, 41, 39, 1);
 		margin-bottom: 0;
 		outline: 3px solid rgb(255, 204, 69); }
 
@@ -57,12 +73,12 @@ h1, h2, h3, h4, h5, h6 {
 
 	@media only screen and (min-width: 40.063em) {
 		.top-bar {
-			background: #2a2927;	}
+			background: rgba(42, 41, 39, 1);	}
 
 		.top-bar-section li:not(.has-form) a:not(.button) {
 			padding: 0 35px;
 			line-height: 88px;
-			background: #2a2927; }
+			background: rgba(42, 41, 39, 1); }
 
 		.top-bar-section li.active:not(.has-form) a:not(.button) {
 			line-height: 88px; }
@@ -73,12 +89,57 @@ h1, h2, h3, h4, h5, h6 {
 		.top-bar-section .has-form {
 			height: 88px; } }
 
-.button {
-	padding: 0 0 3px 0; }
+/*--------------------*/
 
-[data-magellan-expedition] {
-	padding: 0 0 3px;
-}
+/*--------------------
+  Orbit customizations
+  --------------------*/
+
+	.orbit-container .orbit-slides-container > * .orbit-caption {
+	  position: absolute;
+	  top: 0;
+	  background: none;	}
+
+	.orbit-container .orbit-slides-container > * .orbit-caption p {
+	  font-size: 1.5rem;
+	  margin-top: -17px; }
+
+	@media only screen and (max-width: 40.063em) {
+		.orbit-container .orbit-slides-container > * .orbit-caption p {
+		  font-size: 1rem;
+		  margin-top: -10px; } }
+
+/*--------------------*/
+
+/*------------------------------
+  Idea Abode Page Customizations
+  ------------------------------*/
+
+@media only screen and (max-width: 40.063em) {
+	.orbit-hero-idea {
+		margin-top: 1rem; }
+
+	.orbit-hero {
+		margin-top: 1rem; }
+
+	.orbit-hero img {
+		display: block;
+  	margin: auto; } }
+
+@media only screen and (min-width: 40.063em) {
+	.orbit-hero-idea {
+		margin-top: 5rem; }
+
+	.orbit-hero {
+		margin-top: 2rem; } }
+
+.orbit-hero-idea img {
+	-webkit-filter: drop-shadow(0px 0px 10px #ffcc45); }
+
+.orbit-hero figcaption {
+	margin-top: 12rem;
+	text-transform: uppercase;
+	letter-spacing: 2px; }
 
 .content {
 	background: #302f2b;
@@ -95,6 +156,16 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 22px;
 	font-weight: 300; }
 
+@media only screen and (max-width: 40.063em) {
+	.contactus a span {
+		margin-left: 1rem;
+		font-size: 18px;
+		font-weight: 300; } }
+
+@media only screen and (max-width: 40.063em) {
+	.contactus {
+		padding: 1rem 0 3rem 0; } }
+
 .footer {
 	background: #2a2927;
 	color: #4a4a4a;
@@ -105,3 +176,5 @@ h1, h2, h3, h4, h5, h6 {
 
 .footer img {
 	padding: 0 0 0.5rem 0; }
+
+/*--------------------*/
